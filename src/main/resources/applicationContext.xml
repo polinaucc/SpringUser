@@ -12,6 +12,8 @@
         <constructor-arg value="Igor"/>
         <constructor-arg value="Sikorskiy"/>
         <constructor-arg value="55"/>
+        <constructor-arg value="FEMALE"/>
+
     </bean>
 
 </beans>
