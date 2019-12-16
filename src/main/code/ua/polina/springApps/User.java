@@ -11,4 +11,9 @@ public class User {
     private int age;
     private Sex sex;
 
+    public enum Sex {
+        FEMALE,
+        MALE
+    };
+
 }

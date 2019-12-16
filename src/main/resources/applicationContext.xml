@@ -9,11 +9,10 @@
 
     <bean id="user"
           class="ua.polina.springApps.User">
-        <constructor-arg value="Igor"/>
-        <constructor-arg value="Sikorskiy"/>
-        <constructor-arg value="55"/>
-        <constructor-arg value="FEMALE"/>
-
+        <constructor-arg index="0" value="Igor"/>
+        <constructor-arg index="1" value="Sikorskiy"/>
+        <constructor-arg index="2" value="55"/>
+        <constructor-arg name="sex" value="MALE"/>
     </bean>
 
 </beans>
